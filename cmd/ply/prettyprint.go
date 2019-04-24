@@ -3,12 +3,11 @@ package main
 import (
 	"encoding/hex"
 	"fmt"
+	"github.com/yinheli/go-plist"
 	"io"
 	"reflect"
 	"sort"
 	"time"
-
-	"howett.net/plist"
 )
 
 func PrettyPrint(w io.Writer, val interface{}) {

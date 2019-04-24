@@ -3,8 +3,7 @@ package plist_test
 import (
 	"encoding/base64"
 	"fmt"
-
-	"howett.net/plist"
+	"github.com/yinheli/go-plist"
 )
 
 type Base64String string
